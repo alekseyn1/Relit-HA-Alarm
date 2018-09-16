@@ -23,4 +23,15 @@ A few notes:
 </ul>
 C++ is not my strongest language, so if someone would rewrite it to use proper loops - please be my guest
 
-&nbsp;
+Sample code for configuration.yaml:
+````
+binary_sensor:
+  - platform: mqtt
+    state_topic: "alarm/house/1/status"
+    availability_topic: "HouseAlarm/availability"
+    name: "Front Door"
+    qos: 1
+    payload_on: "open"
+    payload_off: "closed"
+    device_class: opening
+````
