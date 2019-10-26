@@ -47,18 +47,18 @@
 //Change 'house' to something else if running multiple NodeMCUs
 #define MQTT_SENSOR3_ACTION_TOPIC "alarm/house/3/action"
 #define MQTT_SENSOR3_STATUS_TOPIC "alarm/house/3/status"
-#define SENSOR3_STATUS_PIN D3
+#define SENSOR3_STATUS_PIN D5
 
 // Sensor 4 Parameters
 #define SENSOR4_ALIAS "Sensor 4"
 //Change 'house' to something else if running multiple NodeMCUs
 #define MQTT_SENSOR4_ACTION_TOPIC "alarm/house/4/action"
 #define MQTT_SENSOR4_STATUS_TOPIC "alarm/house/4/status"
-#define SENSOR4_STATUS_PIN D4
+#define SENSOR4_STATUS_PIN D6
 
 // Sensor 5 Parameters
 #define SENSOR5_ALIAS "Sensor 5"
 //Change 'house' to something else if running multiple NodeMCUs
 #define MQTT_SENSOR5_ACTION_TOPIC "alarm/house/5/action"
 #define MQTT_SENSOR5_STATUS_TOPIC "alarm/house/5/status"
-#define SENSOR5_STATUS_PIN D5
+#define SENSOR5_STATUS_PIN D7
